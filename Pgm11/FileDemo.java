@@ -1,6 +1,12 @@
+/*
+Aim: Introduce File operations in java.
+Program:
+Write a java program that reads a file name from the user, displays information about
+whether the file exists, whether the file is readable, or writable, the type of file and the length
+of the file in bytes
+*/
 import java.io.File;
 import java.util.Scanner;
-
 class FileDemo {
         public static void main(String args[]) {
                 Scanner obj = new Scanner(System.in);

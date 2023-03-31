@@ -1,5 +1,10 @@
+/*
+Aim: Introduce java Collections.
+Program: Write a program to perform string operations using ArrayList. Write functions for
+the following a. Append - add at end b. Insert – add at particular index c. Search d. List all
+string starts with given letter.
+*/
 import java.util.*;
-
 class ArrayL {
     ArrayList<String> list = new ArrayList<String>();
 

@@ -1,5 +1,10 @@
+/*
+Aim: Demonstrate creation of threads using Thread class and Runnable interface, multithreaded programming.
+Program: Write a Java program that implements a multi-thread application that has three
+threads. First thread generates a random integer for every 1 second; second thread computes
+the square of the number and prints; third thread will print the value of cube of the number.
+*/
 import java.util.Random;
-
 // This class defines a thread that calculates the square of a number
 class Square extends Thread {
   int x;

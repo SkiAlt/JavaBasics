@@ -1,4 +1,4 @@
-// 5a. Demonstrate Method overloading
+// 5. Demonstrate Method overloading
 class MethodOverloading {
 	int add(int a, int b) {
 		return a + b;
